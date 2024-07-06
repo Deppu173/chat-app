@@ -77,3 +77,27 @@ body{
   background-position:center;
   /* background-attachment:fixed; */
 }
+
+
+
+/* Make the scrollbar interactive */
+::-webkit-scrollbar {
+  cursor: pointer;
+  width: 8px;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #121212;
+  border-radius: 5px;
+}
+
+/* Change the thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}

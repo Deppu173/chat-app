@@ -14,7 +14,7 @@ function Conversation() {
 
                 <div className='flex flex-col flex-1'>
 
-                    <div>
+                    <div className='flex gap-3 justify-between'>
                         <p className='font-bold text-gray-200  mt-4'>Deepu</p>
                         <span className='text-xl'>❤️</span>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+// import './index.css'
 // import Login from './pages/login/Login'
 import Signup from './pages/signup/Signup'
 import Hom from './pages/home/Hom'
