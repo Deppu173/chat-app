@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -23,7 +24,7 @@ function Login() {
               </label>
               <input type="password" placeholder='Enter password' className='w-full input input-bordered h-10' />
             </div>
-            <a href="#" className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block'> {"Don't "} have an account</a>
+            <Link to="/signup" className='text-sm hover:underline hover:text-blue-600 mt-2 inline-block'> {"Don't "} have an account</Link>
             <button className='btn btn-block  btn-sm mt-2 '>Login</button>
           </form>
         </div>
@@ -37,7 +38,7 @@ function Login() {
 export default Login
 
 
- // STARTER CODE FOR THIS FILE 
+// STARTER CODE FOR THIS FILE
 
 // import React from 'react'
 
